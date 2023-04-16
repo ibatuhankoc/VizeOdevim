@@ -1,0 +1,96 @@
+---
+title: "Suç Oranlarının Ekonomik Verilerle Bağdaşlaştırılması"
+author: 
+  - İbrahim Batuhan KOÇ[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080156, [Github Repo](https://github.com/ibatuhankoc/VizeOdevim.git)
+
+# Giriş
+ Suçtan ve gayrimeşrudan elde edilen gelir genç nüfusun kariyer tercihlerini ve toplumsal yapıyı önemli ölçüde etkilemektedir.Toplumların geleceklerini etkileyen en önemli faktörlerden biri haline gelen "Suç" kavramı çok boyutlu olarak ele alınıp incelenmektedir. Gerek siyaset bilimciler gerek hukuk bilimciler ve gerekse ekonomistler tarafından sebepleri ve sonuçları farklı perspektiflerden açıklanmaktadır (Entorf and Spengler, 1998:1).
+ Ekonomistlerin bu alanı incelemeleri ile "Suç Ekonomisi" kavramı literatüre kazandırılmıştır.Suç Ekonomisi genelde yoksulluk,sosyal dışlanma,gelir,gelir eşitsizliği,göç,enflasyon ve diğer ekonomik sorunlarla ilgidir (Nikolaos and Alexandros, 2009: 52; Chang and Wu, 2012: 4; Hamzah and Lau, 2013: 100; Freeman, 1999: 3532).
+ Ekonomik açıdan durgun piyasaya sahip ya da mali kriz yaşayan ülkelerin vatandaşlarının suça bulaşma oranlarının daha yüksek olacağı tahmin edilir.Dahası durgun piyasa sebebiyle artan suç oranlarına karşı hükümetler önleyici kamu harcamaları yapmazlarsa bu durum neticesinde ekonomik durgunluk geçse bile suç oranları eskiye nazaran daha fazla olmaya devam edecektir (Ivaschenko et al., 2012: 23).
+ Suç oranlarının, refahın ekonomik boyutlarıyla ilişkili olduğunun yadsınamazlığı çoğu sosyoekonomik çalışmada gözler önüne serilmiştir.Avrupa ülkelerinin "Eurostat" verilerine göre suç olaylarının niceliksel değişiminin ekonomik refah göstergelerindeki değişimler ile bağıntısı bu çalışmada birçok veriden yararlanarak tartışılacaktır.  
+
+
+## Çalışmanın Amacı
+ Bu çalışmanın amacı,Avrupa Ülkelerinin ekonomik açıdan refah seviyelerini belirleyen istatistiksel veriler ile incelenen Avrupa ülkelerindeki vatandaşların Eurostat'ta sunulan tüm suç kategorilerindeki suç oranlarının istatistiksel verilerini karşılaştırmaktır.
+ Bu çalışmanın önemi,ülkelerdeki ekonomik refah seviyesinin toplum üzerindeki gözlemlenebilen suç olaylarına olumlu yahut olumsuz etkilerini saptamaktır.
+
+## Literatür 
+ Senelerdir suç ve ekonomiyi inceleyen sayısız çalışmalar yapılmıştır.Dikkat çeken araştırmalardan olan "The Impact of Economic Opportunity on Criminal Behavior: Evidence from the Fracking Boom" Brittany Street tarafından yazılmıştır ve ABD'nin Kuzey Dakota bölgesindeki ceza davalarının, bölgeye yapılan madencilik yatırımı sonucu %22 azalış gösterdiğini ortaya koymuştur.
+ Ahmet Yılmaz ATA'nın "Ücretler, İşsizlik Ve Suç Arasındaki İlişki:Yatay-Kesit Analizi" isimli çalışmasında ücret düzeyleri ile suç arasında açık bir ilişki bulunmuştur. 
+ literatüre kazandırılmış bir diğer çalışma ise "SOCIO- ECONOMIC AND DEMOGRAPHIC DETERMINANTS OF CRIME BY PANEL COUNT DATA ANALYSIS: THE CASE OF EU 28 AND TURKEY". Özlem Kızılgöl ile Sibel Selim tarafından yapılan bu çalışmada ekonomik büyüme ve enflasyonun etkisi net değildir ya da önemsizdir şeklinde bir çıkarımda bulunulmuştur. Bunun yerine yüksek oranda kentleşmiş bölgelerde suç oranlarının arttığı gözlemlenirken; okullaşma oranının arttığı ve polis devriyesinin sık gözlemlendiği bölgelerde suç oranının azaldığı görülmektedir.
+ Son bahsedeceğim makale ise Dullah Mulok, Mori Kogid, Jaratin Lily ve Rozilee Asid'in katkılarıyla ortaya konulmuş "The Relationship between Crime and  Economic Growth in Malaysia: Re-Examine Using Bound Test Approach" isimli çalışma. Bu çalışma "Uzun dönemde ekonomik büyümenin suça yönelik etkisi pozitif ve istatistiksel olarak anlamlı bulunmuştur. Kısa dönemde ise suç ve ekonomik büyüme arasındaki çift yönlü nedensellik ilişkisi de anlamlı bulunmuştur.İyi ekonomilerin daha fazla suç yaratma eğiliminde olduğu ve kötü ekonomilerde bunun tersinin gerçekleştiği yönündeki genel kanı tutarlıdır." şeklindeki sonucu dile getirmiştir ve literatürde genel kabul gören görüşü destekler niteliktedir. 
+
+**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
+\newpage
+# Kaynakça {#references}
+
+ATA A (2011). Ücretler, işsizlik ve suç arasındaki ilişki: yatay-kesit analizi. Çalışma ve Toplum, 0(31), 113 - 134.
+
+Becker, G. S. 1968, “Crime and Punishment: An Economic Approach”, Journal of Political Economy, Vol. 78, pp. 526–536.
+
+Brittany Street, 2022. "The Impact of Economic Opportunity on Criminal Behavior: Evidence from the Fracking Boom," Working Papers 2212, Department of Economics, University of Missouri.
+
+Chang, J. and Wu, C. H. 2012, “Crime, Job Searches, and Economic Growth”, Atlantic Economic Journal, Vol. 40, pp. 3-19.
+
+Entorf, H. and Spengler, H. 1998, “Socio-economic and Demographic Factors of Crime in Germany: Evidence from Panel Data of the German 
+States”, Discussion Paper, no. 98-16, pp. 1-43.
+
+Fontenay, C. D. 2008, “The Economics of Crime: The Case of Argentina”, The Melbourne Review, Vol. 4, pp. 70-75.
+
+Freeman, R. B. 1999, “The Economics of Crime”, in Ashenfelter O. and Card D. (ed.) Handbook of Labor Economics, Chap. 52, Vol. 3, 
+Elsevier, Amsterdam, pp. 3529–3571.
+
+Hamzah, S., Zahara, N. and Lau, E. 2013, “The Role of Social Factors in Explaining Crime”, Theoretical and Applied Economics, Vol. 20, pp. 
+99-118.
+
+Ivaschenko, O., Nivorozhkin, A. and Nivorozhkin, E. 2012, “The Role of Economic Crisis and Social Spending in Explaining Crime in Russia 
+Regional Panel Data Analysis”, Eastern European Economics, Vol. 50, pp. 21–41.
+
+Kizilgol, O. and S. Selim, (2017). Socio-Economic and demographic determinants of crime by panel count data analysis: the case of EU 28 
+and Turkey. Journal of Business, Economics and Finance (JBEF), V.6, Iss.1, p.31-41.
+
+Mulok, Dullah & Kogid, Mori & Lily, Jaratin & Asid, Rozilee. (2016). The Relationship between Crime and Economic Growth in Malaysia: Re-Examine Using Bound Test Approach. Malaysian Journal of Business and Economics. 3. 15-26. 
+
+Nikolaos, D. and Alexandros, G. 2009, “The Effect of Ssocio-economic Determinants on Crime Rates: An Empirical Research in the case of 
+Greece with Cointegration Analysis”, International Journal of Economic Science and Applied Research, Vol. 2, pp. 51-64.
+
+Wu, D. and Wu, Z. 2012, “Crime, Inequality and Unemployment in England and Wales”, Applied Economics, Vol. 44, pp. 3765-3775.
+
+
+
+
+
+<div id="refs"></div>
+
